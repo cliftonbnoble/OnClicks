@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+// import logo from "../src/brandname.png";
+
 
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <Link className="navbar-brand" to="/">
-        On-Clicks
+      {/* <img src={logo} width="25%" height="20%" /> */}
       </Link>
       <div>
         <ul className="navbar-nav">

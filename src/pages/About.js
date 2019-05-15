@@ -3,14 +3,14 @@ import Hero from "../components/Hero";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
+import logo from "../logoclear.png";
 
 function About() {
   return (
     <div>
-      <Hero backgroundImage="../on-clickslogo.png">
+      <img src={logo} width="100%" height="40%" />
         <h1>Upload a text document</h1>
         <h2>Recieve a digital file</h2>
-      </Hero>
       <Container style={{ marginTop: 30 }}>
         <Row>
           <Col size="md-12">
