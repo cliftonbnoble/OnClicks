@@ -5,7 +5,7 @@ import "./style.css";
 function Footer(props) {
   return (
     <footer className="footer">
-        <img src = "./images/footer.png" />
+        <img src = "./images/footer.png" alt="footer-info" />
           </footer>
   );
 }

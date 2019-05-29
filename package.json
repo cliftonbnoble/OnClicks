@@ -1,9 +1,15 @@
 {
   "name": "myfirstapp",
   "version": "0.1.0",
+  "proxy": "http://localhost:3009",
   "private": true,
   "dependencies": {
+    "@google-cloud/vision": "^1.0.0",
+    "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "mongoose": "^5.5.11",
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.8",
     "react-dom": "^16.8.6",
@@ -11,7 +17,7 @@
     "react-scripts": "^3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "concurrently \"nodemon server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -24,5 +30,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "concurrently": "^4.1.0"
+  }
 }

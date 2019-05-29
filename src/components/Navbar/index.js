@@ -39,12 +39,20 @@ function Navbar() {
               SEARCH 
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link
               to="/about"
               className={window.location.pathname === "/about" ? "nav-link active" : "nav-link"}
             >
               ABOUT
+            </Link>
+            </li> */}
+            <li className="nav-item">
+            <Link
+              to="/upload"
+              className={window.location.pathname === "/upload" ? "nav-link active" : "nav-link"}
+            >
+              UPLOAD
             </Link>
             </li>
         </ul>

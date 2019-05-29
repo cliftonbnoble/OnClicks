@@ -1,16 +1,16 @@
 .footer {
   min-height: 10px;
-  background: #BCD0DA;
+  background: #e2eaef;
   position: relative;
   margin-bottom: 0px;
 
 }
 
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
   background: #BCD0DA;
   color: #f35118;
-}
+} */
