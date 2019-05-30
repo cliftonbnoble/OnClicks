@@ -7,8 +7,9 @@ import Navbar from "./components/Navbar";
 import Landing from "./pages/Landing";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer";
-// import About from "./pages/About";
+import About from "./pages/About";
 import Upload from "./pages/Upload";
+import Profile from "./pages/Profile";
 
 
 class App extends Component {
@@ -20,10 +21,9 @@ class App extends Component {
       <Wrapper>
           <Route exact path="/" component={Landing} />
           <Route exact path="/HOME" component={Landing} />
-          <Route exact path="/PROFILE" component={Landing} />
-          {/* <Route exact path="/SEARCH" component={About} /> */}
-          {/* <Route exact path="/ABOUT" component={About} /> */}
+          <Route exact path="/PROFILE" component={Profile} />
           <Route exact path="/UPLOAD" component={Upload} />
+          <Route exact path="/ABOUT" component={About} />
 
         </Wrapper>
 

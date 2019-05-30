@@ -4,9 +4,15 @@ import "./style.css";
 
 function Footer(props) {
   return (
-    <footer className="footer">
-        <img src = "./images/footer.png" alt="footer-info" />
-          </footer>
+    <footer class='footer'>
+    <div>
+      <img src= './images/brandnameCLEAR.png' alt='logo'/>
+      <span>&copy; 2019 </span>
+    </div>
+    <div class='ml-auto'>
+      <a href='https://github.com/cliftonbnoble/OnClicks'>Github</a>
+    </div>
+  </footer>
   );
 }
 
