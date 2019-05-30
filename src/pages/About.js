@@ -8,7 +8,7 @@ function About () {
         <Container style = {{ marginTop: 30, justifyContent:'center' }}>
   <Row>
     <Col>
-    <img src="./images/aboutimg.png"></img>
+    <img src="./images/aboutimg.png" alt="about"></img>
     </Col>
     <Col>Although it is good practice, the answer is no. 
 From receipts to your Uncle Johns hand written short story, On-Clicks is designed with Googles Optical Character Recognition (OCR) to pick up each text character and format it into a digital file. 
@@ -17,9 +17,9 @@ We are always looking to improve technology. Please let us know how we can get t
   <br></br>
   <br></br>
   <Row>
-    <Col><img src="./images/textsamplepickup.png"/></Col>
-    <Col><img src="./images/textsample.png" alt="photo-of-text" /></Col>
-    <Col><img src="./images/textconverted.png"/></Col>
+    <Col><img src="./images/textsamplepickup.png" alt="text"/></Col>
+    <Col><img src="./images/textsample.png" alt="vision-of-text" /></Col>
+    <Col><img src="./images/textconverted.png" alt="converted"/></Col>
   </Row>
 </Container>
     

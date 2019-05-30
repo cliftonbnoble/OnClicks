@@ -6,14 +6,14 @@ import DropdownButton from "react-bootstrap/DropdownButton"
 import Dropdown from "react-bootstrap/Dropdown"
 import InputGroup from "react-bootstrap/InputGroup"
 import FormControl from "react-bootstrap/FormControl"
-import Modal from "react-bootstrap/Modal"
+// import Modal from "react-bootstrap/Modal"
 import { userInfo } from "os";
 
 
 function Profile (){ 
     return(
     <Container style = {{ marginTop: 50, justifyContent:'center', display: 'flex' }}>
-    <Card border="info" style={{ width: '18rem' }} style={{ width: '18rem' }}>
+    <Card border="info" style={{ width: '18rem' }}>
   <Card.Img variant="top" src="./images/user.png" />
   <Card.Body>
     <Card.Title>Welcome {userInfo} </Card.Title>

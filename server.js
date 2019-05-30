@@ -24,10 +24,7 @@ var artcileSchema = mongoose.Schema({
 var Article = mongoose.model("Article", artcileSchema)
 //var visionText;
 
-
-
 app.use('/', express.static(path.join(__dirname, 'public')));
-
 
 app.get('/', function (req, res){
     res.sendFile(__dirname + '/public/index.html');
@@ -36,7 +33,7 @@ app.get('/', function (req, res){
 //Routes saves article description to DB
 app.post("/add-to-db", function(req, res){
     console.log(req.body)
-    
+
     Article.create({
         text: req.body.data,
         date: Date()
@@ -47,6 +44,12 @@ app.post("/add-to-db", function(req, res){
     })
     
 })
+
+app.get("/api", function(req, res) {
+    Article.find({}, function(err, data){
+        console.log(">>>> " + data );
+    });
+});
 
 app.post('/', function (req, res){
     var form = new formidable.IncomingForm();

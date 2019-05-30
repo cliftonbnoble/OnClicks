@@ -4,12 +4,12 @@ import "./style.css";
 
 function Footer(props) {
   return (
-    <footer class='footer'>
+    <footer className='footer'>
     <div>
       <img src= './images/brandnameCLEAR.png' alt='logo'/>
       <span>&copy; 2019 </span>
     </div>
-    <div class='ml-auto'>
+    <div className='ml-auto'>
       <a href='https://github.com/cliftonbnoble/OnClicks'>Github</a>
     </div>
   </footer>
