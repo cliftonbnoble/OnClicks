@@ -79,13 +79,13 @@ class Upload extends Component {
             return (
                 <div>
             {/* website description */}
-            <Container style = {{ marginTop: 10, justifyContent:'center' }}>
+            <Container border='light' style = {{ marginTop: 10, justifyContent:'center'}}>
             <div>
                 <h1>Upload Your File to be Scanned</h1>
                 <p>Allow our App to read the text off of your image and translate it into a useable format to either save for later retrieval.  Edit to make it more readable.  Or you can save it to a document or PDF.</p>
             </div>
             <div>
-            <img className="img-thumbnail rounded mx-auto d-block" src = "./images/ai-upload.gif" alt = "scan-doc" />
+            <img className="img-thumbnail rounded mx-auto d-block" src = "./images/uploadimg.png" alt = "scan-doc" />
 
             </div>
             </Container>
@@ -98,7 +98,7 @@ class Upload extends Component {
                 {/* <label className="up_styles"> */}
                 <input type="file" name="upload" onChange={this.onChange} />    
                 {/* </label>     */}
-            <Button className="sub outline-success btn-lg" type="submit" value="Upload">Upload</Button>
+            <Button className="outline-info btn-md" type="submit" value="Upload">Upload</Button>
             </Form>
             </div>
             <div><h2>{this.state.return}</h2></div>

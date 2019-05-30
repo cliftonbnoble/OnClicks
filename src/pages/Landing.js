@@ -16,13 +16,13 @@ function Landing () {
 {/* Buttons */}
 <div>
 <Container style = {{ marginTop: 10, justifyContent:'center' }}>
-<Button variant="outline-warning" size="lg">Sign Up</Button>
+<Button variant="outline-info" size="lg">Sign Up</Button>
 </Container>
 </div>
 
 <div>
 <Container style = {{ marginTop: 10, justifyContent:'center' }}>
-<Button variant="outline-danger" size="lg">Log In</Button>
+<Button variant="outline-primary" size="lg">Log In</Button>
 </Container>
 </div>
 </div>

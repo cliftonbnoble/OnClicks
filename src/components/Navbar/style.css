@@ -1,16 +1,17 @@
 nav.navbar {
-  display: grid;
+  justify-content: space-between;
+  display: flex;
   margin-bottom: 0;
   background-color: #bcd0da4d;
   font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  grid-template-columns: 1fr  1fr;
+  /* grid-template-columns: 1fr  1fr; */
   margin-bottom: -10px;
 
 }
 
 
 navbar-nav {
-  display: inline-block;
-  margin: 0 20px;
+  /* display: inline-block; */
+  /* margin: 0 20px; */
 }
 
