@@ -88,4 +88,4 @@ app.post('/', function (req, res){
 });
 
 
-app.listen(PORT, () => console.log('Server app listening on port http://localhost:'+PORT))
+app.listen(process.env.PORT || PORT, () => console.log('Server app listening on port http://localhost:'+PORT))
