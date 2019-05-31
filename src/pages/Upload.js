@@ -27,7 +27,7 @@ class Upload extends Component {
         }
         
         fileUpload = file => {
-            const url = "http://localhost:3000";
+            const url = "/";
             const formData = new FormData();
             formData.append('file', file);
             const config = {
@@ -102,7 +102,7 @@ class Upload extends Component {
             <Card style={{ width: '40rem', margin: 'auto' }}>
                 <Card.Img variant="top" src="./images/ai-upload.gif" />
                 <Card.Body>
-                    <Card.Title>Choose Your Image to Upload</Card.Title>
+                    <Card.Title>Choose Your File to Upload</Card.Title>
                     <Card.Text>
                     <Form onSubmit={this.handleSubmit}>
                 {/* <label className="up_styles"> */}
