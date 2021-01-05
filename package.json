@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@google-cloud/vision": "^1.0.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "bootstrap": "^4.3.1",
     "docx": "^4.7.1",
     "express": "^4.17.1",
